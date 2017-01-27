@@ -4,7 +4,7 @@
 
 declare module 'jsforce' {
 
-  interface jsforce {
+  export interface jsforce {
     Connection: Connection;
     OAuth2: OAuth2;// require('./oauth2');
     Promise: Promise;// require('./promise');
@@ -14,7 +14,8 @@ declare module 'jsforce' {
     VERSION: string;// pkg.version;
   }
 
-  interface Connection extends NodeJS.EventEmitter {
+  export class Connection extends NodeJS.EventEmitter {
+    constructor (p: any);
     analytics: Analytics;
     apex: Apex;
     bulk: Bulk;
@@ -34,7 +35,7 @@ declare module 'jsforce' {
     deleted(type: string, start: string | Date, end: string | Date, callback?: () => {}): PromiseLike<DeletedRecordsInfo>;
     describe(type: string, callback?: () => {}): PromiseLike<DescribeSObjectResult>;
     request(): any;
-    query(): any;
+    query(soql: string, cb: Function): any;
     login(name: string, password: string): any;
   }
 
@@ -157,5 +158,5 @@ declare module 'jsforce' {
 
   }
 
-  export = jsforce;
+  // export = jsforce;
 }
