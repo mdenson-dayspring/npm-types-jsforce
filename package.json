@@ -1,16 +1,16 @@
 {
-    "name": "@types/jsforce",
-    "version": "1.7.1",
-    "description": "TypeScript definitions for jsforce v1.7.x",
-    "license": "MIT",
-    "author": "JohnAaronNelson <https://github.com/celador>, Matthew Denson <https://github.com/mdenson-dayspring>",
-    "main": "",
-    "repository": {
-        "type": "git",
-        "url": "https://www.github.com/mdenson-dayspring/npm-types-jsforce.git"
-    },
-    "scripts": {},
-    "dependencies": {},
-    "peerDependencies": {},
-    "typings": "index.d.ts",
+  "name": "@types/jsforce",
+  "version": "1.7.1",
+  "description": "TypeScript definitions for jsforce v1.7.x",
+  "license": "MIT",
+  "author": "JohnAaronNelson <https://github.com/celador>, Matthew Denson <https://github.com/mdenson-dayspring>",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/mdenson-dayspring/npm-types-jsforce.git"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "typings": "index.d.ts"
 }

@@ -1,21 +1,23 @@
 {
-    "authors": "JohnAaronNelson <https://github.com/celador>, Matthew Denson <https://github.com/mdenson-dayspring>",
-    "definitionFilename": "index.d.ts",
-    "libraryDependencies": [],
-    "moduleDependencies": [],
-    "libraryMajorVersion": "1",
-    "libraryMinorVersion": "7",
-    "libraryName": "JSforce v1.7.x",
-    "typingsPackageName": "jsforce",
-    "projectName": "https://jsforce.github.io/",
-    "sourceRepoURL": "https://www.github.com/mdenson-dayspring/npm-types-jsforce",
-    "sourceBranch": "master",
-    "kind": "MultipleModules",
-    "globals": [ ],
-    "declaredModules": [
-        "jsforce"
-    ],
-    "files": [
-        "index.d.ts"
-    ]
+  "authors": "JohnAaronNelson <https://github.com/celador>, Matthew Denson <https://github.com/mdenson-dayspring>",
+  "definitionFilename": "index.d.ts",
+  "libraryDependencies": [],
+  "moduleDependencies": [],
+  "libraryMajorVersion": "1",
+  "libraryMinorVersion": "7",
+  "libraryName": "JSforce v1.7.x",
+  "typingsPackageName": "jsforce",
+  "projectName": "https://jsforce.github.io/",
+  "sourceRepoURL": "https://www.github.com/mdenson-dayspring/npm-types-jsforce",
+  "sourceBranch": "master",
+  "kind": "MultipleModules",
+  "globals": [
+    "jsforce"
+  ],
+  "declaredModules": [
+    "jsforce"
+  ],
+  "files": [
+    "index.d.ts"
+  ]
 }
